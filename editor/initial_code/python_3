@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def potencia(N, termos):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(potencia(3, [303, 152, 42]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+
+assert potencia(2, [24, 123]) == 1744
+assert potencia(3, [303, 152, 42]) == 27241
+assert potencia(6, [12, 13, 24, 20, 31, 43]) == 86
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
